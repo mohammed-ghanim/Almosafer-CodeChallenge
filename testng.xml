@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Almosafer Code Challenge">
+<listeners>
+<listener class-name="com.almosafer.listeners.AlmosaferTestListener"></listener>
+</listeners>
+  <test thread-count="5" name="Android">
+ <parameter name="deviceName" value="6b99e5e7"></parameter>
+ <parameter name="platformName" value="Android"></parameter>
+ <parameter name="platformVersion" value="12"></parameter>
+ <classes>
+ <class name="com.almosafer.testcases.MainScenarioTest"></class>
+ </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
